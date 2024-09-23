@@ -7,7 +7,7 @@ function selectImage(){
 
     let createRandomNum = Math.random();
     createRandomNum = createRandomNum * numberOfImages;
-    createRandomNum = Math.floor(createRandomNum) + 1;
+    createRandomNum = Math.floor(createRandomNum);
 
     let randomImage = "images/" + imageCollections[createRandomNum];
 
