@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --pri-color: #151515;
+    --sec-color: #A91D3A;
+    --acc-color: #EEEEEE;
+    --btn-color: #C73659;
+}
+
+body{
+    background-color: var(--pri-color);
+    color: var(--acc-color);
+}
+
+/* nav */
+nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--btn-color);
+    font-weight: bold;
+}
+
+nav > div:nth-child(1){
+    font-size: 1.15rem;
+}
+
+/* smtxt */
+.smtxt{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+/* imghead */
+.img_head{
+    width: 120px;
+    height: 100px;
+}
+
+/* img */
+nav img{
+    width: 100%;
+    height: 100%;
+    border: 6px solid var(--btn-color);
+}
+
+/* main */
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 200px);
+    gap: 3rem;
+    padding: 3rem 1rem;
+    background-color: var(--btn-color);
+}
+
+main > div{
+    overflow: hidden;
+    border: 12px solid var(--acc-color);
+}
+
+/* To make image responsive across multiple devices */
+main img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+main img:hover{
+    transform: scale(1.2);
+    transition: 1.9s;
+}
+
+footer{
+    padding: 2rem 1rem;
+    font-size: 0.8rem;
+    color: var(--btn-color);
+    text-align: center;
+}
+
+footer .sec{
+    font-size: 0.6rem;
+    color: var(--acc-color);
+    padding-top: 0.3rem;
+}
