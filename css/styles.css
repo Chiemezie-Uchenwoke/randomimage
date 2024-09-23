@@ -55,15 +55,18 @@ nav img{
 main{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 200px);
+    /* grid-template-rows: repeat(9, minmax(150px, auto)); Adjust row height */
+    grid-template-rows: repeat(9, auto);
     gap: 3rem;
-    padding: 3rem 1rem;
+    padding-top: 3rem;
+    padding-inline: 1rem;
     background-color: var(--btn-color);
 }
 
 main > div{
     overflow: hidden;
     border: 12px solid var(--acc-color);
+    height: 100%;
 }
 
 /* To make image responsive across multiple devices */
