@@ -66,14 +66,14 @@ main{
 main > div{
     overflow: hidden;
     border: 12px solid var(--acc-color);
-    height: 100%;
+    height: 100%; /* Ensure divs take full height of the grid row */
 }
 
 /* To make image responsive across multiple devices */
 main img{
     max-width: 100%;
     width: 100%;
-    height: 100%;
+    height: 100%; 
 }
 
 main img:hover{
