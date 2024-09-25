@@ -10,6 +10,7 @@
     --sec-color: #A91D3A;
     --acc-color: #EEEEEE;
     --btn-color: #C73659;
+    --acc2-color: #e75c7c;
 }
 
 body{
@@ -33,9 +34,10 @@ nav > div:nth-child(1){
 
 /* smtxt */
 .smtxt{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 400;
     text-transform: capitalize;
+    color: var(--acc2-color);
 }
 
 /* imghead */
