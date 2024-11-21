@@ -15,4 +15,4 @@ function selectImage(){
 }
 selectImage();
 
-setInterval(selectImage, 3000);
+setInterval(selectImage, 2000);
